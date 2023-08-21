@@ -1,0 +1,110 @@
+a:link {
+    color: #fff;
+}
+
+a:hover {
+    color: #ffcc5e;
+}
+
+a:visited {
+    color: #fff;
+}
+
+body {
+    background: cover;
+}
+
+.table1 {
+    font-family: Century Gothic;
+    color: #444;
+    border-collapse: collapse;
+}
+
+.table1 tr th {
+    border-color: #44d3fd;
+    background: #244c5e;
+    padding: 10px;
+    color: #44d3fd;
+    font-weight: normal;
+}
+
+.table1,
+th,
+td {
+    border-color: #44d3fd;
+    padding: 10px;
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #235c96;
+    color: #44d3fd;
+}
+
+.textbox {
+    background: white;
+    border: 1px double #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height: 25px;
+    width: 275px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: century gothic;
+    font-size: 17;
+}
+
+nav ul {
+    background: #235c96;
+    padding: 15px0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #a1d99a;
+}
+
+nav ul li:hover a {
+    color: #447b3d;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #44d3fd;
+    text-decoration: none;
+}
